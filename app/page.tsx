@@ -1,9 +1,14 @@
+import Footer from "@/components/footer";
+import Hero from "@/components/hero";
+import Navbar from "@/components/navbar";
 
 
 export default function Home() {
   return (
-    <div>
-      Home Page
+    <div className="min-h-screen bg-[#0a0f1e] text-white">
+      <Navbar />
+      <Hero />
+      <Footer />
     </div>
   );
 }
